@@ -1,0 +1,13 @@
+<?xml version= "1.0" encoding= "UTF-8"?>
+<suite name ="Parallel tests" parallel="classes" thread-count="10">
+<test name="regression 1">
+<parameter name="host" value="localhost" />
+<classes>
+<class name ="Zalenium.testautomation.ChromeRun_1" />
+<class name ="Zalenium.testautomation.ChromeRun_2" />
+<class name ="Zalenium.testautomation.ChromeRun_3" />
+<class name ="Zalenium.testautomation.ChromeRun_4" />
+
+</classes>
+</test>
+</suite>
